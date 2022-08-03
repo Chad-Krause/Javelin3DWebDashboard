@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MiniJavelinComponent } from './components/mini-javelin/mini-javelin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MiniJavelinComponent
   ],
   imports: [
     BrowserModule,
